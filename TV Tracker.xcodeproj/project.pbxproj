@@ -7,34 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22CE84D42650FAE200C830AF /* TV_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE84C12650FAE000C830AF /* TV_TrackerApp.swift */; };
-		22CE84D52650FAE200C830AF /* TV_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE84C12650FAE000C830AF /* TV_TrackerApp.swift */; };
-		22CE84D62650FAE200C830AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE84C22650FAE000C830AF /* ContentView.swift */; };
-		22CE84D72650FAE200C830AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE84C22650FAE000C830AF /* ContentView.swift */; };
+		2248F54E2682F4290099F69C /* DiskHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248F54D2682F4290099F69C /* DiskHelper.swift */; };
+		2248F5502682FC900099F69C /* Margins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248F54F2682FC900099F69C /* Margins.swift */; };
+		2248F5522682FDD00099F69C /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248F5512682FDD00099F69C /* Credential.swift */; };
+		22CE84D42650FAE200C830AF /* TVTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE84C12650FAE000C830AF /* TVTrackerApp.swift */; };
+		22CE84D62650FAE200C830AF /* ListOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE84C22650FAE000C830AF /* ListOverview.swift */; };
 		22CE84D82650FAE200C830AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CE84C32650FAE200C830AF /* Assets.xcassets */; };
-		22CE84D92650FAE200C830AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CE84C32650FAE200C830AF /* Assets.xcassets */; };
+		22CE84E32650FB1E00C830AF /* TMDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE84E22650FB1E00C830AF /* TMDb.swift */; };
+		22CE84E62650FB6C00C830AF /* TVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE84E52650FB6C00C830AF /* TVShow.swift */; };
+		22CE84E92650FC5800C830AF /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE84E82650FC5800C830AF /* HTTP.swift */; };
+		22D01B0126655F66003AAE5E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D01B0026655F66003AAE5E /* DataManager.swift */; };
+		22D01B0426656451003AAE5E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D01B0326656451003AAE5E /* SearchView.swift */; };
+		22D01B07266B2679003AAE5E /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D01B06266B2679003AAE5E /* Debouncer.swift */; };
+		22D01B0A266B2ECE003AAE5E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D01B09266B2ECE003AAE5E /* RemoteImage.swift */; };
+		22E9435526805C83008A9E94 /* DateConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9435426805C83008A9E94 /* DateConstants.swift */; };
+		22E943582681A3B0008A9E94 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E943572681A3B0008A9E94 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22CE84C12650FAE000C830AF /* TV_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_TrackerApp.swift; sourceTree = "<group>"; };
-		22CE84C22650FAE000C830AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2248F54D2682F4290099F69C /* DiskHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskHelper.swift; sourceTree = "<group>"; };
+		2248F54F2682FC900099F69C /* Margins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Margins.swift; sourceTree = "<group>"; };
+		2248F5512682FDD00099F69C /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
+		22CE84C12650FAE000C830AF /* TVTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTrackerApp.swift; sourceTree = "<group>"; };
+		22CE84C22650FAE000C830AF /* ListOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOverview.swift; sourceTree = "<group>"; };
 		22CE84C32650FAE200C830AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22CE84C82650FAE200C830AF /* TV Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CE84CB2650FAE200C830AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22CE84D02650FAE200C830AF /* TV Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22CE84D22650FAE200C830AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22CE84D32650FAE200C830AF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		22CE84E22650FB1E00C830AF /* TMDb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDb.swift; sourceTree = "<group>"; };
+		22CE84E52650FB6C00C830AF /* TVShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShow.swift; sourceTree = "<group>"; };
+		22CE84E82650FC5800C830AF /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		22D01B0026655F66003AAE5E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		22D01B0326656451003AAE5E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		22D01B06266B2679003AAE5E /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		22D01B09266B2ECE003AAE5E /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		22E9435426805C83008A9E94 /* DateConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConstants.swift; sourceTree = "<group>"; };
+		22E943572681A3B0008A9E94 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		22CE84C52650FAE200C830AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22CE84CD2650FAE200C830AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				22CE84C02650FAE000C830AF /* Shared */,
-				22CE84CA2650FAE200C830AF /* iOS */,
-				22CE84D12650FAE200C830AF /* macOS */,
 				22CE84C92650FAE200C830AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,9 +66,12 @@
 		22CE84C02650FAE000C830AF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				22CE84C12650FAE000C830AF /* TV_TrackerApp.swift */,
-				22CE84C22650FAE000C830AF /* ContentView.swift */,
+				22CE84C12650FAE000C830AF /* TVTrackerApp.swift */,
+				22D01AFE26655EEB003AAE5E /* Views */,
+				22D01AFD26655ED6003AAE5E /* API */,
+				22D01AFF26655EF0003AAE5E /* Models */,
 				22CE84C32650FAE200C830AF /* Assets.xcassets */,
+				22CE84CB2650FAE200C830AF /* Info.plist */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -68,26 +80,42 @@
 			isa = PBXGroup;
 			children = (
 				22CE84C82650FAE200C830AF /* TV Tracker.app */,
-				22CE84D02650FAE200C830AF /* TV Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22CE84CA2650FAE200C830AF /* iOS */ = {
+		22D01AFD26655ED6003AAE5E /* API */ = {
 			isa = PBXGroup;
 			children = (
-				22CE84CB2650FAE200C830AF /* Info.plist */,
+				22CE84E22650FB1E00C830AF /* TMDb.swift */,
+				2248F5512682FDD00099F69C /* Credential.swift */,
+				22CE84E82650FC5800C830AF /* HTTP.swift */,
+				22D01B06266B2679003AAE5E /* Debouncer.swift */,
 			);
-			path = iOS;
+			path = API;
 			sourceTree = "<group>";
 		};
-		22CE84D12650FAE200C830AF /* macOS */ = {
+		22D01AFE26655EEB003AAE5E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				22CE84D22650FAE200C830AF /* Info.plist */,
-				22CE84D32650FAE200C830AF /* macOS.entitlements */,
+				22CE84C22650FAE000C830AF /* ListOverview.swift */,
+				22E943572681A3B0008A9E94 /* DetailView.swift */,
+				22D01B0326656451003AAE5E /* SearchView.swift */,
+				22D01B09266B2ECE003AAE5E /* RemoteImage.swift */,
 			);
-			path = macOS;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		22D01AFF26655EF0003AAE5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22CE84E52650FB6C00C830AF /* TVShow.swift */,
+				22D01B0026655F66003AAE5E /* DataManager.swift */,
+				2248F54D2682F4290099F69C /* DiskHelper.swift */,
+				22E9435426805C83008A9E94 /* DateConstants.swift */,
+				2248F54F2682FC900099F69C /* Margins.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,23 +138,6 @@
 			productReference = 22CE84C82650FAE200C830AF /* TV Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22CE84CF2650FAE200C830AF /* TV Tracker (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22CE84DF2650FAE200C830AF /* Build configuration list for PBXNativeTarget "TV Tracker (macOS)" */;
-			buildPhases = (
-				22CE84CC2650FAE200C830AF /* Sources */,
-				22CE84CD2650FAE200C830AF /* Frameworks */,
-				22CE84CE2650FAE200C830AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TV Tracker (macOS)";
-			productName = "TV Tracker (macOS)";
-			productReference = 22CE84D02650FAE200C830AF /* TV Tracker.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -137,9 +148,6 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					22CE84C72650FAE200C830AF = {
-						CreatedOnToolsVersion = 12.5;
-					};
-					22CE84CF2650FAE200C830AF = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -158,7 +166,6 @@
 			projectRoot = "";
 			targets = (
 				22CE84C72650FAE200C830AF /* TV Tracker (iOS) */,
-				22CE84CF2650FAE200C830AF /* TV Tracker (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -172,14 +179,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22CE84CE2650FAE200C830AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22CE84D92650FAE200C830AF /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -187,17 +186,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22CE84D62650FAE200C830AF /* ContentView.swift in Sources */,
-				22CE84D42650FAE200C830AF /* TV_TrackerApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22CE84CC2650FAE200C830AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22CE84D72650FAE200C830AF /* ContentView.swift in Sources */,
-				22CE84D52650FAE200C830AF /* TV_TrackerApp.swift in Sources */,
+				22D01B0A266B2ECE003AAE5E /* RemoteImage.swift in Sources */,
+				22CE84E92650FC5800C830AF /* HTTP.swift in Sources */,
+				22D01B07266B2679003AAE5E /* Debouncer.swift in Sources */,
+				22D01B0126655F66003AAE5E /* DataManager.swift in Sources */,
+				22CE84D62650FAE200C830AF /* ListOverview.swift in Sources */,
+				22E943582681A3B0008A9E94 /* DetailView.swift in Sources */,
+				2248F54E2682F4290099F69C /* DiskHelper.swift in Sources */,
+				22D01B0426656451003AAE5E /* SearchView.swift in Sources */,
+				2248F5522682FDD00099F69C /* Credential.swift in Sources */,
+				22CE84E32650FB1E00C830AF /* TMDb.swift in Sources */,
+				22E9435526805C83008A9E94 /* DateConstants.swift in Sources */,
+				2248F5502682FC900099F69C /* Margins.swift in Sources */,
+				22CE84E62650FB6C00C830AF /* TVShow.swift in Sources */,
+				22CE84D42650FAE200C830AF /* TVTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,8 +325,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BT7DC73YL;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Shared/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,8 +347,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BT7DC73YL;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Shared/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,54 +359,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		22CE84E02650FAE200C830AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7BT7DC73YL;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.timroesner.TV-Tracker";
-				PRODUCT_NAME = "TV Tracker";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		22CE84E12650FAE200C830AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7BT7DC73YL;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.timroesner.TV-Tracker";
-				PRODUCT_NAME = "TV Tracker";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -425,15 +379,6 @@
 			buildConfigurations = (
 				22CE84DD2650FAE200C830AF /* Debug */,
 				22CE84DE2650FAE200C830AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		22CE84DF2650FAE200C830AF /* Build configuration list for PBXNativeTarget "TV Tracker (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22CE84E02650FAE200C830AF /* Debug */,
-				22CE84E12650FAE200C830AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
