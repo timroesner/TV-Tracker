@@ -63,7 +63,7 @@ struct SearchResultsCell: View {
             
             if !dataManager.hasAdded(tvShow) {
                 Button("Add") {
-                    dataManager.tvShows.append(tvShow)
+                    dataManager.add(tvShow)
                 }
                 .font(.subheadline)
                 .buttonStyle(.bordered)

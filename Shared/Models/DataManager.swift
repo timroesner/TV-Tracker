@@ -43,6 +43,11 @@ final class DataManager: ObservableObject {
     
     // MARK: - Public API
     
+    func add(_ tvShow: TVShow) {
+        tvShows.append(tvShow)
+        loadNextEpisodeAirDates()
+    }
+    
     func remove(_ tvShow: TVShow) {
         tvShows.removeAll(where: { $0.id == tvShow.id })
     }
