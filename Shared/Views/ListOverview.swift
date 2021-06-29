@@ -5,11 +5,15 @@
 //  Created by Tim Roesner on 5/16/21.
 //
 
+import UIKit
 import SwiftUI
 
 struct ListOverview: View {
     @ObservedObject
     var dataManager: DataManager
+    
+    @State
+    private var isPresentingSearch = false
     
     var body: some View {
         Group {
@@ -20,7 +24,8 @@ struct ListOverview: View {
                     ForEach(dataManager.tvShows, id: \.self) { tvShow in
                         NavigationLink(destination: DetailView(tvShow: tvShow)) {
                             ListOverviewCell(tvShow: tvShow)
-                        }.swipeActions(edge: .trailing) {
+                        }
+                        .swipeActions(edge: .trailing) {
                             Button(role: .destructive) {
                                 dataManager.remove(tvShow)
                             } label: {
@@ -39,11 +44,17 @@ struct ListOverview: View {
         }
         .navigationTitle("TV Shows")
         .navigationBarItems(trailing:
-            NavigationLink(
-                destination: SearchView(dataManager: dataManager),
-                label: { Image(systemName: "magnifyingglass") }
-            )
+            Button {
+                isPresentingSearch = true
+            } label: {
+                Image(systemName: "magnifyingglass")
+            }
         )
+        .sheet(isPresented: $isPresentingSearch, onDismiss: nil) {
+            NavigationView {
+                SearchView(dataManager: dataManager)
+            }
+        }
     }
     
     var emptyView: some View {
