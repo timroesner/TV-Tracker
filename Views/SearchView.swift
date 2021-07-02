@@ -9,11 +9,8 @@ import SwiftUI
 import Combine
 
 struct SearchView: View {
+    @ObservedObject
     var dataManager: DataManager
-    
-    init(dataManager: DataManager) {
-        self.dataManager = dataManager
-    }
     
     @StateObject
     private var searchResultsLoader = SearchResultsLoader()

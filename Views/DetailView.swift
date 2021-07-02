@@ -48,10 +48,10 @@ struct DetailView: View {
         AsyncImage(
             url: tvShow.detail?.nextEpisode?.thumbnailURL ?? tvShow.backdropURL,
             content: { imageView in
-            imageView
-                .resizable()
-                .aspectRatio(16 / 9, contentMode: .fit)
-                .cornerRadius(6)
+                imageView
+                    .resizable()
+                    .aspectRatio(16 / 9, contentMode: .fit)
+                    .cornerRadius(6)
             },
             placeholder: {
                 Image(systemName: "photo.tv")
@@ -91,6 +91,8 @@ struct DetailView: View {
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                             }, placeholder: {
+                                // Provide clear placeholder so that
+                                // background is still shown
                                 Color.clear
                             })
                                 .frame(width: 44, height: 44)

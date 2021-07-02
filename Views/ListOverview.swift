@@ -100,6 +100,8 @@ struct ListOverviewCell: View {
         if Date.now.distance(to: date) > .week {
             return Self.furtherAwayDateFormatter.string(from: date)
         } else {
+            // Create reference date with 12am as time, so that
+            // relative distance between dates is accurate
             let format = Date.FormatStyle().year().day().month()
             let formatted = Date.now.formatted(format)
             let referenceDate = try? Date(formatted, strategy: format)
