@@ -58,22 +58,14 @@
 		22CE84BB2650FAE000C830AF = {
 			isa = PBXGroup;
 			children = (
-				22CE84C02650FAE000C830AF /* Shared */,
-				22CE84C92650FAE200C830AF /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		22CE84C02650FAE000C830AF /* Shared */ = {
-			isa = PBXGroup;
-			children = (
 				22CE84C12650FAE000C830AF /* TVTrackerApp.swift */,
 				22D01AFE26655EEB003AAE5E /* Views */,
 				22D01AFD26655ED6003AAE5E /* API */,
 				22D01AFF26655EF0003AAE5E /* Models */,
 				22CE84C32650FAE200C830AF /* Assets.xcassets */,
 				22CE84CB2650FAE200C830AF /* Info.plist */,
+				22CE84C92650FAE200C830AF /* Products */,
 			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		22CE84C92650FAE200C830AF /* Products */ = {
@@ -325,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BT7DC73YL;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Shared/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7BT7DC73YL;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Shared/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
