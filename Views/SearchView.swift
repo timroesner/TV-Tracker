@@ -82,7 +82,7 @@ private class SearchResultsLoader: ObservableObject {
     func loadResults(for searchQuery: String) {
         debouncer.handler = { [weak self] in
             guard let self = self else { return }
-            async {
+            Task {
                 do {
                     let results = try await TMDb.search(searchQuery)
                     DispatchQueue.main.async {

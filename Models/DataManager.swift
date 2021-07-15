@@ -57,7 +57,7 @@ final class DataManager: ObservableObject {
     }
     
     func loadNextEpisodeAirDates() {
-        async {
+        Task {
             let tvShowsWithDetails = await collectNextEpisodeAirDates()
             DispatchQueue.main.async {
                 self.tvShows = tvShowsWithDetails
