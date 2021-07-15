@@ -80,6 +80,11 @@ private class SearchResultsLoader: ObservableObject {
     private var token: Cancellable?
     
     func loadResults(for searchQuery: String) {
+        guard !searchQuery.isEmpty else {
+            results.removeAll()
+            return
+        }
+        
         debouncer.handler = { [weak self] in
             guard let self = self else { return }
             Task {
